@@ -1,0 +1,7 @@
+C:\Users\mizer\source\repos\3asfeladat\bin\Debug\3asfeladat.exe.config
+C:\Users\mizer\source\repos\3asfeladat\bin\Debug\3asfeladat.exe
+C:\Users\mizer\source\repos\3asfeladat\bin\Debug\3asfeladat.pdb
+C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.csproj.AssemblyReference.cache
+C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.csproj.CoreCompileInputs.cache
+C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.exe
+C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.pdb

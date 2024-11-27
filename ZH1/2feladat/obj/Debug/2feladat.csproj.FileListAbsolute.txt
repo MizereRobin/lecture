@@ -1,0 +1,7 @@
+C:\Users\mizer\source\repos\2feladat\bin\Debug\2feladat.exe.config
+C:\Users\mizer\source\repos\2feladat\bin\Debug\2feladat.exe
+C:\Users\mizer\source\repos\2feladat\bin\Debug\2feladat.pdb
+C:\Users\mizer\source\repos\2feladat\obj\Debug\2feladat.csproj.AssemblyReference.cache
+C:\Users\mizer\source\repos\2feladat\obj\Debug\2feladat.csproj.CoreCompileInputs.cache
+C:\Users\mizer\source\repos\2feladat\obj\Debug\2feladat.exe
+C:\Users\mizer\source\repos\2feladat\obj\Debug\2feladat.pdb
