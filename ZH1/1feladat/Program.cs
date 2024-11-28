@@ -25,7 +25,10 @@ namespace ConsoleApp2
             Console.WriteLine("Szeretne-e korlátlan hálózaton belüli és EU-s hívást? (I/N)");
             string input1 = Console.ReadLine();
 
-    
+
+            korlatlanHivas = input1.ToLower() == "i" ? true : false;
+
+            /* MÁSIK OPCIÓ
             if (input1.ToLower() == "i")
             {
                 korlatlanHivas = true;
@@ -38,19 +41,17 @@ namespace ConsoleApp2
             {
                 Console.WriteLine("Nem jól kezeltem le valamit...");
             }
-
+            */
 
             // B) alfeladat
+
             if (korlatlanHivas)
             {
-                
-                
-                while (!(mobilnet==6 || mobilnet == 15))
+                while (!(mobilnet == 6 || mobilnet == 15))
                 {
                     Console.WriteLine("Becslése szerint hány GB adatforgalomra lesz szüksége? (6 vagy 15)");
-                    mobilnet=int.Parse(Console.ReadLine());
+                    mobilnet = int.Parse(Console.ReadLine());
                 }
-
             }
 
             // C) alfeladat
@@ -76,12 +77,17 @@ namespace ConsoleApp2
             }
 
 
-            // d) alfeladat
+            // D) alfeladat
 
             if (ajanlas == "mini" || ajanlas == "normal")
             {
                 Console.WriteLine("Szeretne-e plusz 1,5GB adatforgalmat mindössze havi 1600Ft plusz költségért? (I/N)");
                 input1 = Console.ReadLine();
+
+
+                pluszMasfelGiga = input1.ToLower() == "i" ? true : false;
+
+                /* VAGY ÍGY
                 if (input1.ToLower() == "i")
                 {
                     pluszMasfelGiga = true;
@@ -94,51 +100,49 @@ namespace ConsoleApp2
                 {
                     Console.WriteLine("Nem jól kezeltem le valamit...");
                 }
+                */
             }
 
             // E) alfeladat
 
             Random rnd = new Random(); //Random hívása
-            
-            int percek = rnd.Next(0,360);
-            int sms = rnd.Next(0,100);
-            double adat =  rnd.NextDouble() * (7.5d - 0d); 
-                        // rnd.Next(0, 75) /10
 
-            if (ajanlas=="mini" && !pluszMasfelGiga)
+            int percek = rnd.Next(0, 360);
+            int sms = rnd.Next(0, 100);
+            double adat = Math.Ceiling(rnd.NextDouble() * (7.5d - 0d)); //Ceiling a megkezdett miatt
+                                                                        // rnd.Next(0, 75) /10
+            if (ajanlas == "mini")
             {
                 int mobilnetdíj = 0;
-                if (adat>1)
+                double netalap = 1;
+
+                if (pluszMasfelGiga)
+                {
+                    mobilnetdíj = 1600;
+                    netalap = 2.5;
+                }
+
+                if (adat > netalap)
                 {
                     mobilnetdíj += Convert.ToInt32(adat - 1 * 1250);
                 }
 
-                Console.WriteLine($"A havidíj {4990 + percek*25 + sms*25+ mobilnetdíj} forint lesz"); 
-            }
-            else if(ajanlas == "mini" && pluszMasfelGiga)
-            {
-                int mobilnetdíj = 1600;
-                if (adat > 2.51)
-                {
-                    mobilnetdíj += Convert.ToInt32(adat - 2.5 * 1250);
-                }
                 Console.WriteLine($"A havidíj {4990 + percek * 25 + sms * 25 + mobilnetdíj} forint lesz");
             }
-            else if (ajanlas=="normal" && !pluszMasfelGiga)
+
+            else if (ajanlas == "normal")
             {
                 int mobilnetdíj = 0;
+                double netalap = 6;
+
+                if (pluszMasfelGiga)
+                {
+                    mobilnetdíj = 1600;
+                    netalap = 7.5;
+                }
                 if (adat > 6)
                 {
-                    mobilnetdíj = Convert.ToInt32(adat - 6 * 1050);
-                }
-                Console.WriteLine($"A havidíj {8590 + sms * 20 + mobilnetdíj} forint lesz"); 
-            }
-            else if (ajanlas == "normal" && pluszMasfelGiga)
-            {
-                int mobilnetdíj = 1600;
-                if (adat > 7.5)
-                {
-                    mobilnetdíj = Convert.ToInt32(adat - 7.5 * 1050);
+                    mobilnetdíj += Convert.ToInt32(adat - 6 * 1050);
                 }
                 Console.WriteLine($"A havidíj {8590 + sms * 20 + mobilnetdíj} forint lesz");
             }
@@ -155,9 +159,6 @@ namespace ConsoleApp2
             {
                 Console.WriteLine("Hiba");
             }
-
-
-
             //main vége
             Console.ReadKey();
         }
