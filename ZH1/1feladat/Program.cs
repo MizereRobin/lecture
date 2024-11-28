@@ -144,7 +144,7 @@ namespace ConsoleApp2
                 if (adat > netalap)
                 {
                     adat = Math.Ceiling(adat - netalap);
-                    mobilnetdíj += Convert.ToInt32(adat - 6 * 1050);
+                    mobilnetdíj += Convert.ToInt32(adat * 1050);
                 }
                 Console.WriteLine($"A havidíj {8590 + sms * 20 + mobilnetdíj} forint lesz");
             }
@@ -153,7 +153,8 @@ namespace ConsoleApp2
                 int mobilnetdíj = 0;
                 if (adat > 15)
                 {
-                    mobilnetdíj = Convert.ToInt32(adat - 15 * 900);
+                    adat = Math.Ceiling(adat - 15);
+                    mobilnetdíj = Convert.ToInt32(adat * 900);
                 }
                 Console.WriteLine($"A havidíj {13990 + mobilnetdíj} forint lesz");
             }
