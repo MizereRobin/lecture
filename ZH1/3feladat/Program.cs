@@ -17,7 +17,7 @@ namespace _3asfeladat
             // A feladat
             while (varosok < 10 || varosok > 45)
             {
-                Console.WriteLine("Kérlek add meg hány város van");
+                Console.WriteLine("Kérlek add meg hány város van! (10-45)");
                 varosok = int.Parse(Console.ReadLine());
             }
 
@@ -48,7 +48,7 @@ namespace _3asfeladat
 
             HatvanAlattiSzazalekok = osszesSzazalek / HanyDarab;
 
-            Console.WriteLine($"{Math.Round(HatvanAlattiSzazalekok, 1)}% az átlagos töltöttsége azoknak a rollereknek, melyek töl töttsége 60% alatt van");
+            Console.WriteLine($"{Math.Round(HatvanAlattiSzazalekok, 1)}% az átlagos töltöttsége azoknak a rollereknek, melyek töltöttsége 60% alatt van");
 
 
             //D feladat
@@ -79,7 +79,9 @@ namespace _3asfeladat
             {
                 Console.WriteLine("Egyenlő darab van");
             }
-            else Console.WriteLine("Valami nam jó!!!");
+            else Console.WriteLine("Valami nem jó!!!"); //debug
+
+
             Console.WriteLine($"30.1 {HarmincEgeszEgy}db 100 {Szazszazalek}db");
 
             // E feladat 
@@ -110,7 +112,7 @@ namespace _3asfeladat
 
                 //Console.WriteLine($"{varos + 1} - {atlag}");
             }
-            Console.WriteLine($"A legkisebb átlag töltöttség {minAtlag} Varos{VarosSzama} -ban/ben");
+            Console.WriteLine($"A legkisebb átlag töltöttség {minAtlag}% volt Varos{VarosSzama} -ban/ben");
 
             // E/B feladat
 

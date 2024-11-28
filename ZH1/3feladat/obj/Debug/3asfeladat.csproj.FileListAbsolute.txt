@@ -5,3 +5,10 @@ C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.csproj.AssemblyRefer
 C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.csproj.CoreCompileInputs.cache
 C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.exe
 C:\Users\mizer\source\repos\3asfeladat\obj\Debug\3asfeladat.pdb
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\bin\Debug\3asfeladat.exe.config
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\bin\Debug\3asfeladat.exe
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\bin\Debug\3asfeladat.pdb
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\obj\Debug\3asfeladat.csproj.AssemblyReference.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\obj\Debug\3asfeladat.csproj.CoreCompileInputs.cache
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\obj\Debug\3asfeladat.exe
+\\psgaddc\infotanar-store\homes\mizererobin161\IKT\lecture\ZH1\3feladat\obj\Debug\3asfeladat.pdb
