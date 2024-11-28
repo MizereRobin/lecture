@@ -109,8 +109,8 @@ namespace ConsoleApp2
 
             int percek = rnd.Next(0, 360);
             int sms = rnd.Next(0, 100);
-            double adat = Math.Ceiling(rnd.NextDouble() * (7.5d - 0d)); //Ceiling a megkezdett miatt
-                                                                        // rnd.Next(0, 75) /10
+            double adat = rnd.NextDouble() * (7.5d - 0d);
+                       // rnd.Next(0, 75) /10
             if (ajanlas == "mini")
             {
                 int mobilnetdíj = 0;
@@ -124,6 +124,7 @@ namespace ConsoleApp2
 
                 if (adat > netalap)
                 {
+                    adat = Math.Ceiling(adat - netalap);
                     mobilnetdíj += Convert.ToInt32(adat - 1 * 1250);
                 }
 
@@ -140,8 +141,9 @@ namespace ConsoleApp2
                     mobilnetdíj = 1600;
                     netalap = 7.5;
                 }
-                if (adat > 6)
+                if (adat > netalap)
                 {
+                    adat = Math.Ceiling(adat - netalap);
                     mobilnetdíj += Convert.ToInt32(adat - 6 * 1050);
                 }
                 Console.WriteLine($"A havidíj {8590 + sms * 20 + mobilnetdíj} forint lesz");
