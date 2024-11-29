@@ -1,0 +1,7 @@
+H:\IKT\lecture\ZH1_JAV\Feladat1\bin\Debug\Feladat1.exe.config
+H:\IKT\lecture\ZH1_JAV\Feladat1\bin\Debug\Feladat1.exe
+H:\IKT\lecture\ZH1_JAV\Feladat1\bin\Debug\Feladat1.pdb
+H:\IKT\lecture\ZH1_JAV\Feladat1\obj\Debug\Feladat1.csproj.AssemblyReference.cache
+H:\IKT\lecture\ZH1_JAV\Feladat1\obj\Debug\Feladat1.csproj.CoreCompileInputs.cache
+H:\IKT\lecture\ZH1_JAV\Feladat1\obj\Debug\Feladat1.exe
+H:\IKT\lecture\ZH1_JAV\Feladat1\obj\Debug\Feladat1.pdb
