@@ -1,0 +1,7 @@
+H:\2324\IKT\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.exe.config
+H:\2324\IKT\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.exe
+H:\2324\IKT\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.pdb
+H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.AssemblyReference.cache
+H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.CoreCompileInputs.cache
+H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.exe
+H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.pdb

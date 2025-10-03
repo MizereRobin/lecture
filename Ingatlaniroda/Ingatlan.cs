@@ -9,11 +9,15 @@ namespace Ingatlaniroda
 {
     internal class Ingatlan
     {
+        #region Mezők és Propertyk
+
         private string helyrajziSzam;
         private int szelesseg;
         private bool szelessegBeallitva = false;
         private int hossz;
         private bool hosszBeallitva = false;
+        private EAllapot allapot;
+
         //
 
         string elfogadottKarekterek = "0123456789/";
@@ -76,7 +80,7 @@ namespace Ingatlaniroda
                     szelesseg = value;
                     szelessegBeallitva = true;
                 }
-                else 
+                else
                 {
                     throw new Exception("A szélesség nem megfelelő vagy már be van állítva!");
                 }
@@ -100,16 +104,104 @@ namespace Ingatlaniroda
             }
         }
 
-        public int GetHossz() 
+        public int GetHossz()
         {
             return hossz;
         }
 
-        /* ////////////////////////////////////////////////////////////////////////////
-        
-        ÁLLAPOT KÖVETKEZIK
+        public EAllapot Allapot
+        {
+            get => allapot;
+            set
+            {
+                if (value is EAllapot)
+                {
+                    allapot = value;
+                }
+                else
+                {
+                    throw new Exception("A megadott állapot nem értelmezhető");
+                }
+            }
+        }
 
-        /////////////////////////////////////////////////////////////////////////////// */
+        public int Alapterület
+        {
+            get => hossz * szelesseg;
+        }
+        #endregion
+
+        #region Konstruktorok
+
+        public Ingatlan(
+            string helyrajziSzam,
+            int szelesseg,
+            int hossz,
+            EAllapot allapot)
+        {
+            this.Szelesseg = szelesseg;
+            this.SetHossz(hossz);
+            this.HelyrajziSzam = helyrajziSzam;
+            this.Allapot = allapot;
+        }
+
+        public Ingatlan(string helyrajziSzam,
+            int szelesseg,
+            int hossz)
+        {
+            new Ingatlan(helyrajziSzam, szelesseg, hossz, EAllapot.Ujepitesu);
+        }
+
+        #endregion
+
+        #region Metodusok
+
+        int Vetelar()
+        {
+            int vetelar = 0;
+
+            switch (this.Allapot)
+            {
+                case EAllapot.Ujepitesu:
+                    vetelar = this.Alapterület * 600000;
+                    break;
+                case EAllapot.Korszerusitett:
+                    vetelar = this.Alapterület * 500000;
+                    break;
+                case EAllapot.Felujitott:
+                    vetelar = this.Alapterület * 450000;
+                    break;
+                case EAllapot.Felujitando:
+                    vetelar = this.Alapterület * 300000;
+                    break;
+                default:
+                    throw new Exception("Valami nem jo");
+
+            }
+            return vetelar;
+        }
+
+        public override string ToString()
+        {
+            return $"HRSZ: {this.HelyrajziSzam} Állapot: {this.Allapot} Vételár: {this.Vetelar()} Hossz: {this.GetHossz()} Szélesség: {this.Szelesseg}";
+        }
+
+        public override bool Equals(object obj)
+        {
+            Ingatlan masik = obj as Ingatlan;
+
+            if (this.helyrajziSzam == masik.helyrajziSzam)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        #endregion
     }
 }
 
