@@ -10,6 +10,7 @@ namespace Ingatlaniroda
     {
         static void Main(string[] args)
         {
+            throw new Exception("Not implemented yet");
         }
     }
 }
