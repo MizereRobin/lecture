@@ -93,7 +93,28 @@ namespace Ingatlaniroda
 
         #region Metódusok
 
-        //public void AddIngatlan()
+        public void AddIngatlan(Ingatlan ingatlan)
+        {
+            if (Kereso(ingatlan.HelyrajziSzam) is null)
+            {
+                ingatlanok.Add(ingatlan);
+            }
+        }
+
+        public List<CsaladiHaz> CsaladiHazakAdottArig(EAllapot allapot, int maxar)
+        {
+            List<CsaladiHaz> amiketkeresunk = new List<CsaladiHaz>();
+
+
+            foreach (var item in CsaladiHazak)
+            {
+                if (item.Allapot == allapot && item.Vetelar() <= maxar)
+                {
+                    amiketkeresunk.Add(item);
+                }
+            }
+            return amiketkeresunk;
+        }
 
 
         #endregion

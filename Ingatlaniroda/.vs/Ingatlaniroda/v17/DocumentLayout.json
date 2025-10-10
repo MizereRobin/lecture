@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "H:\\lecture\\Ingatlaniroda\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|H:\\lecture\\Ingatlaniroda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|H:\\lecture\\Ingatlaniroda\\eallapot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:eallapot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|h:\\lecture\\ingatlaniroda\\ingatlaniroda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:ingatlaniroda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|H:\\lecture\\Ingatlaniroda\\ingatlan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:ingatlan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|h:\\lecture\\ingatlaniroda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|H:\\lecture\\Ingatlaniroda\\eallapot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A5B97FC-F318-4841-A0A8-C04FE2DAC848}|Ingatlaniroda.csproj|solutionrelative:eallapot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "IngatlanIroda.cs",
               "DocumentMoniker": "H:\\lecture\\Ingatlaniroda\\IngatlanIroda.cs",
               "RelativeDocumentMoniker": "IngatlanIroda.cs",
               "ToolTip": "H:\\lecture\\Ingatlaniroda\\IngatlanIroda.cs",
               "RelativeToolTip": "IngatlanIroda.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwGEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAcwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T08:20:41.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CsaladiHaz.cs",
               "DocumentMoniker": "H:\\lecture\\Ingatlaniroda\\CsaladiHaz.cs",
               "RelativeDocumentMoniker": "CsaladiHaz.cs",
@@ -59,12 +59,11 @@
               "RelativeToolTip": "CsaladiHaz.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAcwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T09:26:36.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T09:26:36.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EAllapot.cs",
               "DocumentMoniker": "H:\\lecture\\Ingatlaniroda\\EAllapot.cs",
               "RelativeDocumentMoniker": "EAllapot.cs",
@@ -72,11 +71,12 @@
               "RelativeToolTip": "EAllapot.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T10:11:53.016Z"
+              "WhenOpened": "2025-10-02T10:11:53.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Ingatlan.cs",
               "DocumentMoniker": "H:\\lecture\\Ingatlaniroda\\Ingatlan.cs",
               "RelativeDocumentMoniker": "Ingatlan.cs",
@@ -84,18 +84,17 @@
               "RelativeToolTip": "Ingatlan.cs",
               "ViewState": "AgIAAK0AAAAAAAAAAAAmwLoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T09:22:01.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-25T09:22:01.834Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\lecture\\Ingatlaniroda\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "H:\\lecture\\Ingatlaniroda\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T09:16:27.384Z",
               "EditorCaption": ""
