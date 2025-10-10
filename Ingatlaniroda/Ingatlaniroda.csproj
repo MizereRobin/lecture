@@ -46,6 +46,7 @@
     <Compile Include="CsaladiHaz.cs" />
     <Compile Include="EAllapot.cs" />
     <Compile Include="Ingatlan.cs" />
+    <Compile Include="IngatlanIroda.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

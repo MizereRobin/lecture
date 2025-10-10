@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Ingatlaniroda
 {
@@ -15,7 +11,7 @@ namespace Ingatlaniroda
         private int telekhosszusag;
         private int szintek;
         //private int alapterulet;
-        private int kertTerulet;
+        
 
         public int Telekszelesseg
         {
@@ -105,6 +101,44 @@ namespace Ingatlaniroda
 
 
 
+        #endregion
+
+        #region Metodusok
+
+        public int Vetelar()
+        {
+            int ar = 0;
+
+            switch (Allapot)
+            {
+                case EAllapot.Ujepitesu:
+                    ar = Alapterulet * 650000;
+                    break;
+                case EAllapot.Korszerusitett:
+                    ar = Alapterulet * 600000;
+                    break;
+                case EAllapot.Felujitott:
+                    ar = Alapterulet * 550000;
+                    break;
+                case EAllapot.Felujitando:
+                    ar = Alapterulet * 400000;
+                    break;
+                default:
+                    throw new Exception("Valami nem jo, gatya");
+            }
+
+            ar += KertTerulete * 200000;
+            
+
+            return ar;
+        }
+
+        public override string ToString()
+        {
+            return $"HRSZ: {this.HelyrajziSzam} Állapot: {this.Allapot} Vételár: {this.Vetelar()}" +
+                $" Telekhossz: {this.TelekHossz} Telekszélesség: {this.Telekszelesseg} Szintek: {Szintek} Kert területe: {KertTerulete}";
+        }
+        
         #endregion
     }
 }
