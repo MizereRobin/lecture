@@ -40,7 +40,7 @@ namespace Ingatlaniroda
                 }
                 else if (value < base.GetHossz())
                 {
-                    throw new Exception();
+                    throw new Exception($"A {value} kisebb mint a base {base.GetHossz()} itt:{IngatlanIroda.Ingatlanok.Count}");
                 }
                 telekhosszusag = value;
             }

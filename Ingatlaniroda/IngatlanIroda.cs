@@ -10,10 +10,10 @@ namespace Ingatlaniroda
     {
         #region Mezők & Property-k
 
-        private List<Ingatlan> ingatlanok = new List<Ingatlan>();
+        private static List<Ingatlan> ingatlanok = new List<Ingatlan>();
 
 
-        public List<Ingatlan> Ingatlanok
+        public static List<Ingatlan> Ingatlanok
         {
             get { return ingatlanok; }
         }

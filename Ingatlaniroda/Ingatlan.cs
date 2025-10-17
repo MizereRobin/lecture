@@ -40,7 +40,7 @@ namespace Ingatlaniroda
                         throw new Exception("Nem jó az első karakter!");
                     }
                     //ha az előbb nem volt hibás, megnézzük az utolsót is
-                    else if (value[-1] == '/')
+                    else if (value.EndsWith("/"))
                     {
                         throw new Exception("Nem jó az utolsó karakter!");
                     }

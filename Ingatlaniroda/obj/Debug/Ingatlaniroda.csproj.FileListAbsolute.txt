@@ -5,3 +5,11 @@ H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.AssemblyReferen
 H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.CoreCompileInputs.cache
 H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.exe
 H:\2324\IKT\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.pdb
+H:\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.exe.config
+H:\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.exe
+H:\lecture\Ingatlaniroda\bin\Debug\Ingatlaniroda.pdb
+H:\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.AssemblyReference.cache
+H:\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.exe.config
+H:\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.csproj.CoreCompileInputs.cache
+H:\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.exe
+H:\lecture\Ingatlaniroda\obj\Debug\Ingatlaniroda.pdb

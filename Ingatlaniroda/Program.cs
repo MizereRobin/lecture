@@ -30,7 +30,7 @@ namespace Ingatlaniroda
                     A_MI_INGATLANIRODÁNK.AddIngatlan(uj);
                 
                 }
-
+                
             }
         }
     }
