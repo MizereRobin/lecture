@@ -38,7 +38,7 @@
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "H:\\lecture\\Helsinki\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAvwNYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAANIAAAAAAAAAAAAuwNkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T08:41:58.2Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "ToolTip": "\\\\psgaddc\\infotanar-store\\forras\\mizererobin161\\2526\\Feladatok\\Helsinki\\rovidprogram.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-11-28T08:43:26.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:43:26.36Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "ToolTip": "\\\\psgaddc\\infotanar-store\\forras\\mizererobin161\\2526\\Feladatok\\Helsinki\\donto.csv",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-11-28T08:43:26.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T08:43:26.157Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "ToolTip": "H:\\lecture\\Helsinki\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T08:27:20.13Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-28T08:27:20.13Z"
             }
           ]
         }

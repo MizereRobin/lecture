@@ -216,6 +216,20 @@ namespace Helsinki
             {
                 vegeredmeny_rendezettlen.Add($"{item.Nev};{item.Orszag}",ÖsszPontszám(item.Nev));
             }
+
+            Dictionary<string,double> vegeredmeny_rendezett =
+                vegeredmeny_rendezettlen.OrderByDescending(x => x.Value).ToDictionary(x=>x.Key,x=>x.Value);
+            //               Rendezi x.Value alapján           Dictionary-be konvertálja minta alapján
+
+            StreamWriter sw = new StreamWriter("vegeredmeny.csv");
+            int sorszam = 1;
+            foreach (var item in vegeredmeny_rendezett)
+            {
+                sw.WriteLine($"{sorszam};{item.Key};{item.Value}");
+                sorszam++;
+            }
+            sw.Close();
+        
         }
     }
     class Versenyzo
