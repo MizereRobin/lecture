@@ -1,0 +1,11 @@
+H:\2324\IKT\lecture\Helsinki\bin\Debug\Helsinki.exe.config
+H:\2324\IKT\lecture\Helsinki\bin\Debug\Helsinki.exe
+H:\2324\IKT\lecture\Helsinki\bin\Debug\Helsinki.pdb
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.csproj.AssemblyReference.cache
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.Properties.Resources.resources
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.csproj.GenerateResource.cache
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.csproj.CoreCompileInputs.cache
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.exe
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.pdb
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.exe.config
+H:\2324\IKT\lecture\Helsinki\obj\Debug\Helsinki.Form1.resources
