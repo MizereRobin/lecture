@@ -1,0 +1,8 @@
+C:\Users\user\Documents\Robin\Eveleji_ism\bin\Debug\Eveleji_ism.exe.config
+C:\Users\user\Documents\Robin\Eveleji_ism\bin\Debug\Eveleji_ism.exe
+C:\Users\user\Documents\Robin\Eveleji_ism\bin\Debug\Eveleji_ism.pdb
+C:\Users\user\Documents\Robin\Eveleji_ism\obj\Debug\Eveleji_ism.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Robin\Eveleji_ism\obj\Debug\Eveleji_ism.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Robin\Eveleji_ism\obj\Debug\Eveleji_ism.exe
+C:\Users\user\Documents\Robin\Eveleji_ism\obj\Debug\Eveleji_ism.pdb
+C:\Users\user\Documents\Robin\Eveleji_ism\obj\Debug\Eveleji_ism.exe.config

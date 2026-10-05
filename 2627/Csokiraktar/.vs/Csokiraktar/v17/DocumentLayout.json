@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E2B73-E10B-4BC2-9F97-F927A43FF953}|Csokiraktar.csproj|c:\\users\\user\\documents\\robin\\csokiraktar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E2B73-E10B-4BC2-9F97-F927A43FF953}|Csokiraktar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8E2B73-E10B-4BC2-9F97-F927A43FF953}|Csokiraktar.csproj|C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\csoki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8E2B73-E10B-4BC2-9F97-F927A43FF953}|Csokiraktar.csproj|solutionrelative:csoki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Csoki.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\Csoki.cs",
+              "RelativeDocumentMoniker": "Csoki.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\Csoki.cs",
+              "RelativeToolTip": "Csoki.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwE4AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:17:17.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\Robin\\Csokiraktar\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFIAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-21T10:06:06.128Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
